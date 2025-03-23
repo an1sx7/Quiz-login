@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+*{
+  font-family: "Boldonse", system-ui;
+}
+body{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(black, darkblue);
+  background: url('/08034cf8c78d5466508885287f6f3036.jpg');
+}
+div{
+  display: flex;
+}
+#num{
+  width:152px;
+  margin-right:3px;
+  margin-top:10px;
+  height:40px;
+  outline:none;
+  padding:0 10px;
+  background: transparent;
+  color:white;
+  border:1px solid ghostwhite;
+}
+#gender{
+  width:155px;
+  margin-top:10px;
+  outline:none;
+  background: transparent;
+  color:white;
+  border:1px solid ghostwhite;
+  padding:0 6px;
+}
+#pass{
+  margin-top:10px;
+  height:40px;
+  width:90%;
+  outline:none;
+  padding:0 10px;
+  background: transparent;
+  color:white;
+  border:1px solid ghostwhite;
+}
+#txt{
+  height:40px;
+  width:90%;
+  outline:none;
+  padding:0 10px;
+  background: transparent;
+  color:white;
+  border:1px solid ghostwhite;
+}
+#sn{
+  margin-top:20px;
+  width:97%;
+  height:40px;
+  border:none;
+  background:royalblue;
+  color:white;
+  font-size:18px;
+  margin-right:8px;
+  box-shadow: 0 0 20px deepskyblue;
+}
+h1{
+  color:white;
+  text-transform: uppercase ;
+  text-align: center;
+  animation:tit 4s backwards 1s steps(4);
+  transition: 1s
+}
+h1:hover{
+  color: Royalblue;
+  scale:.8
+}
